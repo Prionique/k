@@ -4,7 +4,7 @@ def main(page: Page):
 
 
     page.add(TextField(label = "Login"))
-    page.add(TextButton("Logingj"))
+    page.add(TextButton("Login"))
 
     page.update
 
