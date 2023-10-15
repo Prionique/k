@@ -7,7 +7,7 @@ def main(page: Page):
    a = TextField(label = "Login")
    page.add(a)
    page.add(TextButton("Login to the syste
-   ", on_click = lo))
+   ", on_click = lambda : _ lo(_)))
 
 
 app(main, view = WEB_BROWSER)
